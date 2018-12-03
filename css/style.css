@@ -1,0 +1,198 @@
+@font-face {
+  font-family: "Gora-Free";
+  src: url('/css/Gora-Free.ttf');
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url('/css/OpenSans-Regular.ttf');
+}
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url('/css/OpenSans-Bold.ttf');
+}
+@font-face {
+  font-family: "OpenSans-ExtraBold";
+  src: url('/css/OpenSans-ExtraBold.ttf');
+}
+
+.header {
+  background-color: #131415;
+  position: relative;
+  height: 77px;
+}
+.logo_top {
+  position: absolute;
+  top: 30px;
+  left: 19px;
+}
+.menu {
+  position: absolute;
+  top: 9px;
+  left: 380px;
+}
+.logo__link {
+  color: #f89513;
+  font-family: "Gora Free";
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.menu__list {
+  list-style-type: none;
+}
+.menu__title {
+  display: inline-block;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.menu__item {
+  display: inline-block;
+  margin-left: 65px;
+}
+.menu__icon-picture {
+  margin-right: 18px;
+}
+.menu__link {
+  text-decoration: none;
+}
+.contacts {
+  position: absolute;
+  top: 22px;
+  right: 21px;
+  font-style: normal;
+  text-align: right;
+}
+.contacts__phone {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 21px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.worktime {
+  display: block;
+  color: rgba(248, 149, 19, .7);
+  font-family: "Open Sans";
+  font-size: 14px;
+}
+.page__logo {
+  height: 610px;
+}
+.page__logo-picture{
+  position: relative;
+  top: 79px;
+  left: 279px;
+}
+.page__features {
+  background-color: #131415;
+  height: 570px;
+  /* position: relative; */
+}
+.features {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 49px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 66px;
+  letter-spacing: 1.5px;
+  margin-bottom: 83px;
+}
+.features__types-list {
+  list-style-type: none;
+  text-align: center;
+}
+.features__types-item {
+  display: inline-block;
+  text-align: center;
+ }
+ .features__types-icon {
+  background-color: #f89513;
+  padding: 20px;
+  border: 1px solid #f89513;
+  border-radius: 100%;
+  margin-bottom: 43px;
+ }
+ 
+.features__types-title {
+  color: #ffffff;
+  font-family: "OpenSans-ExtraBold";
+  font-size: 11px;
+  text-transform: uppercase;
+}
+.features__qualities {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 18px;
+}
+.features__qualities-list {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 18px;
+  list-style-type: circle;
+}
+.title {
+  color: #221f1f;
+  font-family: "Open Sans";
+  font-size: 49px;
+  text-transform: uppercase;
+}
+.article__date {
+  color: #656464;
+  font-family: "Roboto Light";
+  font-size: 14px;
+  text-decoration: none;
+}
+.article__name {
+  font-family: "Roboto-Bold";
+}
+.article__text {
+  font-family: "Roboto Light";
+}
+.top-news__name {
+  color: #221f1f;
+  font-family: "Open Sans";
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.top-news__month {
+  color: #221f1f;
+  font-family: "Open Sans";
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #656464;
+  text-decoration: none;
+}
+.paginator__display {
+  color: #656464;
+  font-family: Roboto;
+  font-size: 14px;
+}
+.paginator__link {
+  color: #221f1f;
+  font-family: Roboto;
+  font-size: 14px;
+  text-decoration: none;
+}
+footer {
+  background-color: #131415;
+}
+.authorship__course {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 14px;
+}
+.authorship__author {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 14px;
+}
+.social-net__title {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 14px;
+}
