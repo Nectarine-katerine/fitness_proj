@@ -4,52 +4,52 @@
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Open Sans";
-  src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
-       url('../fonts/opensans-regular-webfont.woff') format('woff');
+  src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'), url('../fonts/opensans-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Open Sans";
-  src: url('../fonts/opensans-bold-webfont.woff2') format('woff2'),
-       url('../fonts/opensans-bold-webfont.woff') format('woff');
+  src: url('../fonts/opensans-bold-webfont.woff2') format('woff2'), url('../fonts/opensans-bold-webfont.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Open Sans";
-  src: url('../fonts/opensans-extrabold-webfont.woff2') format('woff2'),
-       url('../fonts/opensans-extrabold-webfont.woff') format('woff');
+  src: url('../fonts/opensans-extrabold-webfont.woff2') format('woff2'), url('../fonts/opensans-extrabold-webfont.woff') format('woff');
   font-weight: 800;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Open Sans";
-  src: url('../fonts/opensans-light-webfont.woff2') format('woff2'),
-       url('../fonts/opensans-light-webfont.woff') format('woff');
+  src: url('../fonts/opensans-light-webfont.woff2') format('woff2'), url('../fonts/opensans-light-webfont.woff') format('woff');
   font-weight: 300;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Roboto";
-  src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
-       url('../fonts/roboto-regular-webfont.woff') format('woff');
+  src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'), url('../fonts/roboto-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Roboto";
-  src: url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
-       url('../fonts/roboto-bold-webfont.woff') format('woff');
-  font-weight:bold;
+  src: url('../fonts/roboto-bold-webfont.woff2') format('woff2'), url('../fonts/roboto-bold-webfont.woff') format('woff');
+  font-weight: bold;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Roboto";
-  src: url('../fonts/roboto-light-webfont.woff2') format('woff2'),
-       url('../fonts/roboto-light-webfont.woff') format('woff');
+  src: url('../fonts/roboto-light-webfont.woff2') format('woff2'), url('../fonts/roboto-light-webfont.woff') format('woff');
   font-weight: 300;
   font-style: normal;
 }
@@ -63,29 +63,36 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 ul {
   margin: 0;
   padding: 0;
 }
+
 ul li {
   list-style: none;
 }
+
 .header {
   background-color: #131415;
 }
+
 .container {
   margin: 0 auto;
   width: 1060px;
 }
+
 .header__container {
   height: 77px;
   position: relative;
 }
+
 .logo {
   font-family: "Gora Free";
   padding-top: 31px;
   padding-left: 19px;
 }
+
 .logo__link {
   color: #f89513;
   font-family: Gora-Free;
@@ -94,15 +101,18 @@ ul li {
   text-transform: uppercase;
   display: inline-block;
 }
+
 .menu {
   position: absolute;
   top: 30px;
   left: 259px;
 }
+
 .menu__item {
   display: inline-block;
   margin-left: 65px;
 }
+
 .menu__link {
   display: inline-block;
   text-decoration: none;
@@ -114,33 +124,41 @@ ul li {
   padding-left: 35px;
   padding-top: 2px;
 }
-.menu__link_main{
+
+.menu__link_main {
   background-image: url(../icons/main_icon.png);
   background-repeat: no-repeat;
   background-position: left center;
 }
+
 .menu__link_review {
   background-image: url(../icons/star_icon.png);
   background-repeat: no-repeat;
   background-position: left center;
 }
+
 .menu__link_service {
   background-image: url(../icons/service_icon.png);
   background-repeat: no-repeat;
   background-position: left center;
 }
+
 .menu__link:hover {
   color: #f89513;
 }
+
 .menu__link_main:hover {
   background-image: url(../icons/main_icon-hover.png);
- }
+}
+
 .menu__link_review:hover {
   background-image: url(../icons/review-hover.png);
 }
+
 .menu__link_service:hover {
   background-image: url(../icons/service-hover.png);
 }
+
 .contacts {
   position: absolute;
   top: 13px;
@@ -148,6 +166,7 @@ ul li {
   font-style: normal;
   text-align: right;
 }
+
 .contacts__phone {
   color: #ffffff;
   font-family: "Open Sans";
@@ -155,6 +174,7 @@ ul li {
   text-decoration: none;
   text-transform: uppercase;
 }
+
 .contacts__worktime {
   display: block;
   color: rgba(248, 149, 19, .7);
@@ -162,16 +182,20 @@ ul li {
   font-weight: bold;
   font-size: 14px;
 }
+
 .banner {
   text-align: center;
   margin-top: 80px;
   margin-bottom: 58px;
 }
+
 /*Никак не могу разобраться с этой частью: вопросы, как выровнять список и абзац?
 Как задать ширину, чтобы слова переносились, как в макете?*/
+
 .features {
   background-color: #131415;
 }
+
 .features__title {
   font-size: 49px;
   text-transform: uppercase;
@@ -180,11 +204,13 @@ ul li {
   letter-spacing: 0.1em;
   padding-top: 70px;
 }
+
 .features__list {
   padding-top: 50px;
   padding-bottom: 102px;
   text-align: center
 }
+
 .features__item {
   display: inline-block;
   background-position: top center;
@@ -193,8 +219,9 @@ ul li {
   margin-right: 75px;
   width: 202px;
 }
+
 .features__item::before {
-  content:"";
+  content: "";
   font-size: 20px;
   width: 20px;
   height: 20px;
@@ -205,14 +232,16 @@ ul li {
   background-image: url(../icons/flower_icon.png);
   background-repeat: no-repeat;
   background-position: center center;
-
 }
+
 .features__item_premium::before {
   background-image: url(../icons/favorite-star_icon.png);
 }
+
 .features__item_coach::before {
   background-image: url(../icons/painter-palette_icon.png);
 }
+
 .features__text-title {
   letter-spacing: 0.2em;
   font-weight: bold;
@@ -221,25 +250,29 @@ ul li {
   padding-top: 60px;
   margin-bottom: 30px;
 }
+
 .features__text-desc {
   display: inline-block;
   font-size: 18px;
   padding: 5px;
 }
+
 .features__text-list {
   text-align: center;
   margin-left: 20px;
 }
+
 .features__text-item {
   list-style: disc;
   text-align: start;
- }
+}
 
 .news {
   font-family: "Roboto", sans-serif;
   color: #000;
   line-height: normal;
 }
+
 .news__title {
   color: #221f1f;
   font-size: 49px;
@@ -248,66 +281,80 @@ ul li {
   text-align: center;
   padding-top: 40px;
 }
+
 .news__content {
   float: left;
 }
+
 .news__avatar {
   display: inline-block;
   margin-right: 20px;
 }
+
 .news__list {
   list-style-type: none;
 }
+
 .news__item {
   border-bottom: 2px solid #f5f5f5;
   margin: auto 5px;
   padding: 30px 0;
 }
+
 .news__desc {
   width: 606px;
   display: inline-block;
   vertical-align: top;
 }
+
 .news__desc_bigger {
   width: 694px;
 }
+
 .news__desc-date {
   text-decoration: none;
   font-size: 14px;
   color: #656464;
 }
+
 /*Появился разрыв между элементами - не могу убрать*/
+
 .news__desc-name {
   font-weight: bold;
   font-size: 21px;
 }
+
 .news__desc-text {
   font-weight: 300;
   font-size: 18px;
 }
+
 .news__item_no-border {
   border: none;
 }
+
 .top-news {
   float: left;
   text-align: left;
   margin: 30px 20px;
   color: #000;
   line-height: 0;
-
 }
+
 .top-news__list {
   list-style-type: none;
 }
+
 .top-news__item {
   margin: 20px 0;
 }
+
 .top-news__name {
   color: #221f1f;
-  
   font-size: 12px;
   text-transform: uppercase;
 }
+
 .top-news__month {
   color: #221f1f;
   font-size: 12px;
@@ -315,12 +362,14 @@ ul li {
   color: #656464;
   text-decoration: none;
 }
+
 .paginator {
   clear: both;
   text-align: center;
-  margin-top:40px;
+  margin-top: 40px;
   margin-bottom: 70px;
 }
+
 .paginator__display {
   display: inline-block;
   color: #656464;
@@ -328,23 +377,28 @@ ul li {
   font-size: 14px;
   margin-right: 20px;
 }
+
 .paginator__controlls {
   display: inline-block;
 }
+
 .paginatop__prev {
   text-decoration: none;
   color: #656464;
   font-family: "Roboto";
   margin-right: 20px;
 }
+
 .paginator__list {
   list-style-type: none;
   display: inline-block;
 }
+
 .paginator__item {
   display: inline-block;
   margin-right: 20px;
 }
+
 .paginator__link {
   color: #221f1f;
   font-family: "Roboto";
@@ -352,28 +406,34 @@ ul li {
   font-size: 14px;
   text-decoration: none;
 }
+
 .paginator__link:hover {
   color: #f89513;
 }
+
 .paginator__next {
   text-decoration: none;
   font-family: "Roboto";
   font-weight: bold;
   color: #221f1f;
 }
-.paginator__link_active{
+
+.paginator__link_active {
   background-color: #27273e;
   padding: 4px 8px;
-  border:1px solid #27273e;
+  border: 1px solid #27273e;
   border-radius: 3px;
   color: #fff;
 }
+
 /*Мне кажется, или я каряво подключила шрифты,
 совсем на макет не похоже :( */
+
 .footer {
   background-color: #131415;
   height: 77px;
- }
+}
+
 .authorship {
   font-weight: 300;
   display: inline-block;
@@ -383,20 +443,23 @@ ul li {
   padding: 14px 0;
   font-size: 14px;
 }
+
 .authorship__course-school {
   color: #ffffff;
   font-weight: bold;
 }
+
 .authorship__author {
   margin: 0;
   /*в html нужно добавить спан? Или как отстилизовать, чтобы жирным было*/
-  }
+}
 
 .logo__footer {
   display: inline-block;
   vertical-align: top;
   margin-right: 202px;
 }
+
 .social-net {
   display: inline-block;
   margin: 20px;
@@ -405,16 +468,19 @@ ul li {
   left: 460px;
   bottom: 5px; */
 }
+
 .social-net__title {
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 8px;
 }
- .social-net__list {
+
+.social-net__list {
   list-style-type: none;
 }
- .social-net__item {
-  content:"";
+
+.social-net__item {
+  content: "";
   font-size: 14px;
   width: 10px;
   height: 10px;
@@ -424,25 +490,31 @@ ul li {
   background-color: #d0d0d0;
   background-repeat: no-repeat;
   background-position: center center;
-   display: inline-block;
-   margin-right: 5px;
- }
- .social-net__item:first-child {
-   background-image: url(../icons/vk.png);
- }
- .social-net__item:nth-child(2) {
-   background-image: url(../icons/fb.png);
- }
- .social-net__item:nth-child(3) {
-   background-image: url(../icons/google.png);
- }
- .social-net__item:nth-child(4) {
-   background-image: url(../icons/twitter.png);
- }
- .social-net__item:last-child {
-   background-image: url(../icons/mail.png);
- }
- .social-net__item:hover {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.social-net__item:first-child {
+  background-image: url(../icons/vk.png);
+}
+
+.social-net__item:nth-child(2) {
+  background-image: url(../icons/fb.png);
+}
+
+.social-net__item:nth-child(3) {
+  background-image: url(../icons/google.png);
+}
+
+.social-net__item:nth-child(4) {
+  background-image: url(../icons/twitter.png);
+}
+
+.social-net__item:last-child {
+  background-image: url(../icons/mail.png);
+}
+
+.social-net__item:hover {
   background-color: #f89513;
   border: 1px solid #f89513;
- }
+}
