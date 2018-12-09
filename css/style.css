@@ -63,7 +63,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.wrapper {
+  min-width: 1200px;
+}
 ul {
   margin: 0;
   padding: 0;
@@ -241,7 +243,9 @@ ul li {
 .features__item_coach::before {
   background-image: url(../icons/painter-palette_icon.png);
 }
-
+.features__item_coach {
+  margin-right: 0;
+}
 .features__text-title {
   letter-spacing: 0.2em;
   font-weight: bold;
@@ -265,6 +269,7 @@ ul li {
 .features__text-item {
   list-style: disc;
   text-align: start;
+  margin-left: 10px;
 }
 
 .news {
@@ -317,16 +322,16 @@ ul li {
   color: #656464;
 }
 
-/*Появился разрыв между элементами - не могу убрать*/
-
 .news__desc-name {
   font-weight: bold;
   font-size: 21px;
+  margin: 5px 0;
 }
 
 .news__desc-text {
   font-weight: 300;
   font-size: 18px;
+  margin: 0;
 }
 
 .news__item_no-border {
