@@ -1,0 +1,26 @@
+.top-news {
+  text-align: left;
+  color: #000;
+  line-height: 0;
+}
+.top-news h4 {
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.top-news__item {
+  margin: 20px 0;
+}
+
+.top-news__name {
+  color: #221f1f;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.top-news__month {
+  color: #221f1f;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #656464;
+  text-decoration: none;
+}

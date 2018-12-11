@@ -1,0 +1,42 @@
+.menu__list {
+  display: flex;
+  width: 360px;
+  justify-content: space-between;
+}
+.menu__link {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding-left: 35px;
+}
+
+.menu__link_main {
+  background: url(../../icons/main_icon.png) left center no-repeat;
+}
+
+.menu__link_review {
+  background: url(../../icons/star_icon.png) left center no-repeat;
+}
+
+.menu__link_service {
+  background: url(../../icons/service_icon.png) left center no-repeat;
+}
+
+.menu__link:hover {
+  color: #f89513;
+}
+
+.menu__link_main:hover {
+  background-image: url(../../icons/main_icon-hover.png);
+}
+
+.menu__link_review:hover {
+  background-image: url(../../icons/review-hover.png);
+}
+
+.menu__link_service:hover {
+  background-image: url(../../icons/service-hover.png);
+}

@@ -1,0 +1,11 @@
+.authorship {
+  font-weight: 300;
+  width: 242px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.authorship__course-school {
+  color: #ffffff;
+  font-weight: bold;
+}

@@ -1,0 +1,11 @@
+.logo {
+  font-family: "Gora Free";
+}
+
+.logo__link {
+  color: #f89513;
+  font-family: Gora-Free;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
