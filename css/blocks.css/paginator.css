@@ -7,7 +7,6 @@
 
 .paginator__display {
   color: #656464;
-  font-family: "Roboto";
   font-size: 14px;
   margin-right: 20px;
 }
@@ -19,7 +18,6 @@
 .paginatop__prev {
   text-decoration: none;
   color: #656464;
-  font-family: "Roboto";
 }
 .paginator__list {
   display: flex;
@@ -29,7 +27,6 @@
 
 .paginator__link {
   color: #221f1f;
-  font-family: "Roboto";
   font-weight: bold;
   font-size: 14px;
   text-decoration: none;
@@ -41,7 +38,6 @@
 
 .paginator__next {
   text-decoration: none;
-  font-family: "Roboto";
   font-weight: bold;
   color: #221f1f;
 }
@@ -52,4 +48,9 @@
   border: 1px solid #27273e;
   border-radius: 3px;
   color: #fff;
+}
+
+.paginator__link_active-reviews {
+  background-color: #131415;
+  color: #f89513;
 }

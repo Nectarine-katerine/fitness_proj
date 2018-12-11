@@ -9,6 +9,7 @@
 </head>
 <body>
   <div class="wrapper">
+    <div class="wrapper__content">
     <header class="header">
       <div class="container header__container">
         <div class="logo">
@@ -17,13 +18,13 @@
         <nav class="menu">
           <ul class="menu__list">
             <li class="menu__item">
-              <a href="#" class="menu__link menu__link_main">Главная</a>
+              <a href="./index.html" class="menu__link menu__link_main">Главная</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link menu__link_review">Отзывы</a>
+              <a href="./reviews.html" class="menu__link menu__link_review">Отзывы</a>
             </li>
-            <li class="menu__item">
-              <a href="#" class="menu__link menu__link_service">Услуги</a>
+            <li class="menu__item_active">
+              <a href="./services.html" class="menu__link menu__link_service">Услуги</a>
             </li>
           </ul>
         </nav>
@@ -34,34 +35,33 @@
       </div>
     </header>
   
-    <div class="page">
-      <div class="page-content">
+    <main class="page">
   
         <nav class="breadcrumbs">
-          <div class="container">
-            <ul class="breadcrumbs__list">
-              <li class="breadcumbs__item">
-                <a href="#" class="breadcrumbs__link">Главная</a>
-                <div class="breadcrumbs__separator">/</div>
-              </li>
-              <li class="breadcumbs__item">
-                <a href="#" class="breadcrumbs__link">Отзывы</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+          <div class="container breadcrumbs__container">
+            <nav class="breadcrumbs">
+              <ul class="breadcrumbs__list">
+                <li class="breadcrumbs__item">
+                  <a href="./index.html" class="breadcrumbs__link">Главная</a>
+                </li>
+                <li class="breadcrumbs__item breadcrumbs__item_active">
+                  <a href="./reviews.html" class="breadcrumbs__link">Отзывы</a>
+                </li>
+              </ul>
+              </div>
+            </nav>
   
-        <section class="news">
-          <div class="container">
+        <section class="reviews">
+          <div class="container reviews__container">
             <h2>Отзывы</h2>
             <div class="reviews__content">
               <ul class="reviews__list">
                 <li class="reviews__item">
                   <div class="reviews__avatar">
-                    <img src="" alt="" class="reviews__avatar-picture">
+                    <img src="./img/man-review.png" alt="" class="reviews__avatar-picture">
                   </div>
                   <div class="reviews__desc">
-                    <time datetime="2016-10-12" class="news__desc-date">12.10.2016</time>
+                    <time datetime="2016-10-12" class="reviews__desc-date">12.10.2016</time>
                     <h3 class="reviews__desc-name">Алексей Воронов</h3>
                     <p class="reviews__desc-text">Пришел, чтобы похудеть немного к лету, но благодаря тренеру Александру
                       Ковалеву, получилось накачать нормальные банки. Втянулся, теперь занимаюсь регулярно, 2 раза в
@@ -74,10 +74,10 @@
         
                 <li class="reviews__item">
                   <div class="reviews__avatar">
-                    <img src="" alt="" class="reviews__avatar-picture">
+                    <img src="./img/second-review.png" alt="" class="reviews__avatar-picture">
                   </div>
                   <div class="reviews__desc">
-                    <time datetime="2016-02-01" class="news__desc-date">01.02.2016</time>
+                    <time datetime="2016-02-01" class="reviews__desc-date">01.02.2016</time>
                     <h3 class="reviews__desc-name">Инна Смольная</h3>
                     <p class="reviews__desc-text">Подарили на день рождения абонемент в бассейн, пришлось воспользоваться.
                       Сама
@@ -88,12 +88,12 @@
                   </div>
                 </li>
         
-                <li class="reviews__item news__item_no-border">
-                  <div class="reviews__avatar">
-                    <img src="" alt="" class="reviews__avatar-picture">
+                <li class="reviews__item">
+                  <div class="reviews__avatar reviews__avatar_no-photo">
+                    <!-- <img src="./img/afrodita.png" alt="" class="reviews__avatar-picture"> -->
                   </div>
                   <div class="reviews__desc">
-                    <time datetime="2015-12-22" class="news__desc-date">22.12.2015</time>
+                    <time datetime="2015-12-22" class="reviews__desc-date">22.12.2015</time>
                     <h3 class="reviews__desc-name">Владимир Савельев</h3>
                     <p class="reviews__desc-text">Норм клуб, железа хватает, но техника устаревшая. За эту цену – прокатит.
                       Если
@@ -102,12 +102,12 @@
                   </div>
                 </li>
         
-                <li class="reviews__item news__item_no-border">
+                <li class="reviews__item reviews__item_no-border">
                   <div class="reviews__avatar">
-                    <img src="" alt="" class="reviews__avatar-picture">
+                    <img src="./img/four-review.png" alt="" class="reviews__avatar-picture">
                   </div>
                   <div class="reviews__desc">
-                    <time datetime="2015-08-14" class="news__desc-date">14.08.2015</time>
+                    <time datetime="2015-08-14" class="reviews__desc-date">14.08.2015</time>
                     <h3 class="reviews__desc-name">Ирина Савина</h3>
                     <p class="reviews__desc-text">Занимаюсь 4й месяц на петлях ТРХ и очень нравится результат. Даже
                       знакомые
@@ -128,7 +128,7 @@
             <a href="#" class="paginatop__prev">&lt;</a>
             <ul class="paginator__list">
               <li class="paginator__item">
-                <a href="" class="paginator__link paginator__link_active">1</a>
+                <a href="" class="paginator__link paginator__link_active paginator__link_active-reviews">1</a>
               </li>
               <li class="paginator__item">
                 <a href="" class="paginator__link">2</a>
@@ -154,48 +154,47 @@
         </div>
   
         <section class="waiting">
-          <div class="container">
+          <div class="container waiting__container">
             <div class="waiting__text">
               Помимо перечисленных услуг, мы предоставляем консультации профессиональных диетологов, тренеров, психологов.
               Также
               есть кабинет массажа, зал спа рядом с бассейном и возможность арендовать центр для проведения массовых
               мероприятий.
-              Ждем ваших заявок!
+              <span class="waiting__text_colored">Ждем ваших заявок!</span>
             </div>
           </div>
         </section>
   
         <section class="review-form">
-          <div class="container">
+          <div class="container review-form__container">
             <form action="" method="" enctype="" autocomplete class="review-form__form">
               <h2 class="review-form__title">Оставить отзыв</h2>
               <label for="name">
                 <div class="review-form__name">Ваше имя</div>
               </label>
-              <input type="text" id="name" placeholder="Андрей">
+              <input type="text" id="name" placeholder="Андрей" class="review-form__input">
               <label for="vk">
                 <div class="review-form__vk">Ссылка на профиль VK</div>
               </label>
-              <input type="text" id="vk" placeholder="vk.com/example">
+              <input type="text" id="vk" class="review-form__input" placeholder="vk.com/example">
               <label for="review">
                 <div class="review-form__review-text">Текст отзыва</div>
               </label>
-              <input type="textarea" id="review" placeholder="Мне понравилось">
+              <input type="textarea" id="review" class="review-form__textarea" placeholder="Мне понравилось">
               <div class="review-form__question-photo">Отображать фото в отзыве?</div>
               <label for="yes">Да</label>
               <input type="radio" id="yes" name="photo">
               <label for="no">Нет</label>
               <input type="radio" name="photo">
-              <input type="submit" value="Отправить">
+              <input type="submit" class="review-form__input" value="Отправить">
             </form>
           </div>
         </section>
   
-      </div>
-    </div>
-    
+    </main>
+  </div>
     <footer class="footer">
-      <div class="container">
+      <div class="container footer__container">
         <div class="authorship">
           <div class="authorship__course">Сделано с любовью и старанием на курсе «HTML + CSS» в <a href="https://loftschool.com/"
               class="authorship__course-school">LoftSchool</a>.

@@ -40,3 +40,16 @@
 .menu__link_service:hover {
   background-image: url(../../icons/service-hover.png);
 }
+
+.menu__item_active .menu__link{
+  color: #f89513;
+}
+.menu__item_active .menu__link_main {
+  background-image: url(../../icons/main_icon-hover.png);
+}
+.menu__item_active .menu__link_review {
+  background-image: url(../../icons/review-hover.png)  
+}
+.menu__item_active .menu__link_service {
+  background-image: url(../../icons/service-hover.png);
+}

@@ -1,0 +1,20 @@
+.waiting {
+  background-color: #131415;
+}
+.waiting__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 171px;
+  background: url(../../img/bg-waiting.png) center center no-repeat;
+}
+.waiting__text {
+  color: #fff;
+  width: 624px;
+  font-weight: 300;
+}
+.waiting__text_colored {
+  color: #f89513;
+  font-weight: bold;
+}

@@ -10,7 +10,11 @@
 @import url('./blocks.css/last-news.css');
 @import url('./blocks.css/news.css');
 @import url('./blocks.css/top-news.css');
+@import url('./blocks.css/breadcrumbs.css');
+@import url('./blocks.css/reviews.css');
 @import url('./blocks.css/paginator.css');
+@import url('./blocks.css/waiting.css');
+@import url('./blocks.css/review-form.css');
 @import url('./blocks.css/footer.css');
 @import url('./blocks.css/authorship.css');
 @import url('./blocks.css/social-net.css');

@@ -1,0 +1,17 @@
+.review-form__container {
+  width: 700px;
+  height: 427px;
+  background-color: #f5f5f5;
+  margin: 61px auto;
+}
+.review-form__form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.review-form__textarea {
+  width: 800px;
+}
+.review-form__input {
+  width: 269px;
+}
