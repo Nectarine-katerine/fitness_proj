@@ -1,0 +1,32 @@
+.services h2 {
+  color: #221f1f;
+  font-size: 49px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.services__content {
+  display: flex;
+  justify-content: space-between;
+  ;
+}
+.services__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.services__desc-name {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+}
+.services__desc-text {
+  width: 276px;
+  margin: 0;
+  font-weight: 300;
+}
+.services__avatar-title_uppercase,
+.services__desc-name_uppercase {
+  text-transform: uppercase;
+}

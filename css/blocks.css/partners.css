@@ -1,0 +1,21 @@
+.partners__container {
+  padding-bottom: 33px;
+}
+.partners h2 {
+  color: #221f1f;
+  font-size: 49px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 85px;
+}
+.partners__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+align-content: flex-end;
+}
+.partners__item {
+  width: 330px;
+  padding-bottom: 50px;
+}

@@ -2,13 +2,18 @@
   text-align: left;
   color: #000;
   line-height: 0;
+  margin-top: 66px;
 }
 .top-news h4 {
   font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 5px;
   padding-bottom: 20px;
+  font-size: 12px;
+  letter-spacing: 0.2em;
 }
 .top-news__item {
-  margin: 20px 0;
+  margin-top: 23px;
 }
 
 .top-news__name {
@@ -23,4 +28,5 @@
   text-transform: uppercase;
   color: #656464;
   text-decoration: none;
+  letter-spacing: 0.2em;
 }

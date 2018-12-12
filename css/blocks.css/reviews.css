@@ -12,7 +12,7 @@
 
 .reviews h2 {
   align-self: flex-start;
-  padding-left: 109px;
+  padding-left: 92px;
   color: #221f1f;
   font-size: 49px;
   font-weight: bold;
@@ -23,7 +23,7 @@
   display: flex;
   justify-content: space-between;
   border-bottom: 2px solid #f5f5f5;
-  padding: 30px 0;
+  padding: 37px 0;
   width: 880px;
 }
 
@@ -34,10 +34,10 @@
 .reviews__avatar_no-photo {
   height: 160px;
   padding: 0 79px;
-  background-color: #fff;
-  border: 1px solid #fff;
+  background-color: #000;
+  /* border: 1px solid ; */
   background: url(../../img/afrodita.png) center center no-repeat;
-  opacity: 0.2;
+  opacity: 0.3;
   border-radius: 100%;
   margin-right: 20px;
 }
@@ -55,7 +55,6 @@
 .reviews__desc h3 {
   font-weight: bold;
   font-size: 21px;
-  margin: 5px 0;
 }
 
 .reviews__desc p {
