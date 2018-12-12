@@ -6,12 +6,16 @@
 }
 .review-form__form {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
+  align-items: center;
 }
 .review-form__textarea {
   width: 800px;
 }
 .review-form__input {
   width: 269px;
+}
+.review-form__top {
+  display: flex;
 }
