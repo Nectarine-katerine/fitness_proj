@@ -16,6 +16,7 @@
   line-height: 1.9em;
 }
 .waiting__text_colored {
+  text-decoration: none;
   color: #f89513;
   font-weight: bold;
 }

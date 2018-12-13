@@ -12,10 +12,26 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  align-items: center;
-align-content: flex-end;
-}
+  align-items: baseline;
+  
+ }
 .partners__item {
-  width: 330px;
+  width: 300px;
   padding-bottom: 50px;
+}
+.partners__logo {
+  width: 160px;
+  height: 90px;
+  margin: 0 auto;
+  filter: grayscale(100%);
+}
+.partners__logo_s {
+  width: 60px;
+}
+.partners__logo_sm {
+  width: 43px;
+}
+.partners__logo:hover {
+  cursor: pointer;
+  filter: grayscale(0);
 }
