@@ -1,34 +1,93 @@
+.services__container {
+ padding-left: 90px;
+}
 .services h2 {
   color: #221f1f;
   font-size: 49px;
   font-weight: bold;
   text-transform: uppercase;
-  
+  margin-bottom: 32px;
 }
-/* .services__content {
+.services__img {
+  width: 250px;
+  height: 153px;
+  background-image: url(../../img/sports.png);
+  border-radius: 3px;
   display: flex;
-  justify-content: space-between;
-  ;
-} */
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 23px;
+}
+.services__img_diet {
+  background-image: url(../../img/diet.png);
+}
 
+.services__img_yoga {
+  background-image: url(../../img/yoga.png);
+}
+
+.services__img_tpx {
+  background-image: url(../../img/trx.png);
+}
+
+.services__img_cross {
+  background-image: url(../../img/crossfit.png);
+}
+
+.services__img_pool {
+  background-image: url(../../img/swim-pool.png);
+}
+
+.services__name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, .5);
+  padding: 60px 74px;
+  border-radius: 3px;
+}
+.services__name_diet {
+  padding: 60px 59px;
+}
+
+.services__name_yoga {
+  padding: 60px 92px;
+}
+
+.services__name_tpx {
+  padding: 43px 74px;
+}
+
+.services__name_cross {
+  padding: 60px 56px;
+}
+
+.services__name_pool {
+  padding: 60px 66px;
+}
 .services__list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-content: center;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
-.services h3 {
-  align-self: center;
+.services__item {
+  margin-right: 51px;
+  margin-bottom: 60px;
+  width: 261px;
 }
+
 .services__desc-name {
   font-weight: bold;
   font-size: 18px;
-  margin: 0;
+  margin-bottom: 5px;
 }
 .services__desc-text {
-  width: 276px;
+  line-height: 1.5em;
   margin: 0;
   font-weight: 300;
+  font-size: 14px;
 }
 .services__avatar-title_uppercase,
 .services__desc-name_uppercase {
