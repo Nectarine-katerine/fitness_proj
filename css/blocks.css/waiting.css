@@ -6,12 +6,12 @@
   justify-content: center;
   align-items: center;
   align-content: center;
-  height: 171px;
-  background: url(../../img/bg-waiting.png) center center no-repeat;
+  background: url(../../img/bg-waiting.png) center center #131415;
+  padding: 23px 0;
 }
 .waiting__text {
   color: #fff;
-  width: 624px;
+  width: 59%;
   font-weight: 300;
   line-height: 1.9em;
 }

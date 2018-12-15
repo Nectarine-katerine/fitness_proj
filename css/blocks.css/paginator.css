@@ -1,18 +1,24 @@
 .paginator {
-  display: flex;
-  justify-content: center;
   margin-top: 37px;
   margin-bottom: 60px;
 }
-
+.paginator__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
 .paginator__display {
   color: #656464;
   font-size: 14px;
   margin-right: 20px;
-}
+  width: 26%;
+  text-align: right;
+ }
 .paginator__controlls {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  width: 40%;
 }
 
 .paginatop__prev {
@@ -22,7 +28,7 @@
 .paginator__list {
   display: flex;
   justify-content: space-evenly;
-  width: 215px;
+  width: 50%;
 }
 
 .paginator__link {

@@ -14,27 +14,40 @@
     <div class="wrapper__content">
       <header class="header">
         <div class="container header__container">
-          <div class="logo">
-            <a href="./index.html" class="logo__link">Афродита</a>
+          <div class="header__col">
+            <div class="logo">
+              <a href="./index.html" class="logo__link">Афродита</a>
+            </div>
           </div>
-          <nav class="menu">
-            <ul class="menu__list">
-              <li class="menu__item ">
-                <a href="./index.html" class="menu__link menu__link_main">Главная</a>
-              </li>
-              <li class="menu__item">
-                <a href="./reviews.html" class="menu__link menu__link_review">Отзывы</a>
-              </li>
-              <li class="menu__item menu__item_active">
-                <a href="./services.html" class="menu__link menu__link_service">Услуги</a>
-              </li>
-            </ul>
-          </nav>
-          <address class="contacts">
-            <a href="tel:+78000039210" class="contacts__phone">8 (800) 00-392-10</a>
-            <a href="#" class="contacts__worktime">График работы</a>
-          </address>
-        </div>
+          <div class="header__col">
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="./index.html" class="menu__link menu__link_main">Главная</a>
+                </li>
+                <li class="menu__item">
+                  <a href="./reviews.html" class="menu__link menu__link_review">Отзывы</a>
+                </li>
+                <li class="menu__item menu__item_active">
+                  <a href="./services.html" class="menu__link menu__link_service">Услуги</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header__col header__col_align-right">
+            <address class="contacts">
+              <a href="tel:+78000039210" class="contacts__phone">8 (800) 00-392-10</a>
+            </address>
+            <div class="schedule">
+              <button class="schedule__btn">График работы</button>
+              <div class="schedule__wrapper">
+                <div class="schedule__block">
+                  <div class="schedule__block-days">пн-вс: 09:00-20:00</div>
+                  <div class="schedule__block-lanch">обед: 14:00-14:30</div>
+                </div>
+              </div>
+            </div>
+          </div>
       </header>
 
       <main class="page">
@@ -49,19 +62,23 @@
                   <a href="./services.html" class="breadcrumbs__link">Услуги</a>
                 </li>
               </ul>
+            </nav>
           </div>
         </div>
         <section class="services">
           <div class="container services__container">
-            <h2>Услуги</h2>
+            <h2 class="title services__title">Услуги</h2>
             <div class="services__content">
               <ul class="services__list">
                 <li class="services__item">
-                  <div class="services__img">
+                  <div class="services__appearance">
+                    <div class="services__avatar">
+                      <img src="./img/sports.png" alt="Фитнес" class="services__avatar-pict">
+                    </div>
                     <h3 class="services__name">Фитнес</h3>
                   </div>
                   <div class="services__desc">
-                    <h4 class="services__desc-name">Фитнес</h4>
+                    <h4 class="services__desc-title">Фитнес</h4>
                     <p class="services__desc-text">Фитнес - это основное направление в нашем центре. Открыто 6 залов
                       для
                       занятий с
@@ -76,12 +93,15 @@
                   </div>
                 </li>
                 <li class="services__item">
-                  <div class="services__img services__img_diet">
-                    <h3 class="services__name services__name_diet">Диетолог</h3>
+                  <div class="services__appearance">
+                    <div class="services__avatar">
+                      <img src="./img/diet.png" alt="Диетолог" class="services__avatar-pict">
+                    </div>
+                    <h3 class="services__name">Диетолог</h3>
                   </div>
-              
+
                   <div class="services__desc">
-                    <h4 class="services__desc-name">Личный диетолог</h4>
+                    <h4 class="services__desc-title">Личный диетолог</h4>
                     <p class="services__desc-text">Поможет вам получить более заметный результат от тренировок. Создаст
                       меню
                       на
@@ -93,11 +113,14 @@
                   </div>
                 </li>
                 <li class="services__item">
-                  <div class="services__img services__img_yoga">
-                    <h3 class="services__name services__name_yoga">Йогa</h3>
+                  <div class="services__appearance">
+                    <div class="services__avatar">
+                      <img src="./img/yoga.png" alt="Йога" class="services__avatar-pict">
+                    </div>
+                    <h3 class="services__name">Йога</h3>
                   </div>
                   <div class="services__desc">
-                    <h4 class="services__desc-name">Йога</h4>
+                    <h4 class="services__desc-title">Йога</h4>
                     <p class="services__desc-text">Гармония души и тела – это базовая составляющая здоровья и красоты.
                       Наш
                       зал
@@ -108,11 +131,14 @@
                   </div>
                 </li>
                 <li class="services__item">
-                  <div class="services__img services__img_tpx">
-                    <h3 class="services__name services__name_tpx">Петли TPX</h3>
+                  <div class="services__appearance">
+                    <div class="services__avatar">
+                      <img src="./img/trx.png" alt="Петли TPX" class="services__avatar-pict">
+                    </div>
+                    <h3 class="services__name">Петли <span class="services__name_uppercase">tpx</span></h3>
                   </div>
                   <div class="services__desc">
-                    <h4 class="services__desc-name">Петли <span class="services__desc-name_uppercase">tpx</span></h4>
+                    <h4 class="services__desc-title">Петли <span class="services__desc-title_uppercase">tpx</span></h4>
                     <p class="services__desc-text">Новое направление для нашего центра, которое стало одним из самых
                       популярных
                       и востребованных. Программа TRX Suspension Training создана для людей с начальным уровнем
@@ -125,11 +151,14 @@
                   </div>
                 </li>
                 <li class="services__item">
-                  <div class="services__img services__img_cross">
-                    <h3 class="services__name services__name_cross">Кроссфит</h3>
+                  <div class="services__appearance">
+                    <div class="services__avatar">
+                      <img src="./img/crossfit.png" alt="Кроссфит" class="services__avatar-pict">
+                    </div>
+                    <h3 class="services__name">Кроссфит</h3>
                   </div>
                   <div class="services__desc">
-                    <h4 class="services__desc-name">Кроссфит</h4>
+                    <h4 class="services__desc-title">Кроссфит</h4>
                     <p class="services__desc-text">Авторская запатентованная программа тренировки, включающая элементы
                       тяжелой
                       атлетики, занятий с гирями, гимнастики. Данная программа безупречно подходит для ежедневных
@@ -142,11 +171,14 @@
                   </div>
                 </li>
                 <li class="services__item">
-                  <div class="services__img services__img_pool">
-                    <h3 class="services__name services__name_pool">Бассейн</h3>
+                  <div class="services__appearance">
+                    <div class="services__avatar">
+                      <img src="./img/swim-pool.png" alt="Бассейн" class="services__avatar-pict">
+                    </div>
+                    <h3 class="services__name">Бассейн</h3>
                   </div>
                   <div class="services__desc">
-                    <h4 class="services__desc-name">Бассейн</h4>
+                    <h4 class="services__desc-title">Бассейн</h4>
                     <p class="services__desc-text">Большой 50 метровый бассейн, разделенный на 6 дорожек, позволит
                       заниматься
                       индивидуальным плаванием или аквааэробикой. Занятия проводит сертифицированный тренер – Ситник
@@ -166,73 +198,80 @@
         </section>
         <section class="partners">
           <div class="container partners__container">
-            <h2>Партнёры</h2>
+            <h2 class="title partners__title">Партнёры</h2>
             <ul class="partners__list">
               <li class="partners__item">
-                <div class="partners__logo">
-                  <img src="./img/flamingo.png" alt="Логотип компании Фламинго" class="partners__logo-pict">
-                </div>
+                <a class="partners__link">
+                  <img src="./img/flamingo.png" alt="Фламинго" class="partners__pict">
+                </a>
               </li>
               <li class="partners__item">
-                <div class="partners__logo">
-                  <img src="./img/malibu.png" alt="Логотип компании Малибу" class="partners__logo-pict">
-                </div>
+                <a class="partners__link">
+                  <img src="./img/malibu.png" alt="Малибу" class="partners__pict">
+                </a>
               </li>
               <li class="partners__item">
-                <div class="partners__logo partners__logo_s">
-                  <img src="./img/lion.png" alt="Логотип компании Lion" class="partners__logo-pict">
-                </div>
+                <a class="partners__link partners__logo_s">
+                  <img src="./img/lion.png" alt="Lion" class="partners__pict">
+                </a>
               </li>
               <li class="partners__item">
-                <div class="partners__logo">
-                  <img src="./img/arni.png" alt="Логотип компании ARNI" class="partners__logo-pict">
-                </div>
+                <a class="partners__link">
+                  <img src="./img/arni.png" alt="ARNI" class="partners__pict">
+                </a>
               </li>
               <li class="partners__item">
-                <div class="partners__logo">
-                  <img src="./img/grif.png" alt="Логотип компании ГРИФ" class="partners__logo-pict">
-                </div>
+                <a class="partners__link">
+                  <img src="./img/grif.png" alt="ГРИФ" class="partners__pict">
+                </a>
               </li>
               <li class="partners__item">
-                <div class="partners__logo partners__logo_sm">
-                  <img src="./img/atletica.png" alt="Логотип компании Атлетика" class="partners__logo-pict">
-                </div>
+                <a class="partners__link partners__logo_sm">
+                  <img src="./img/atletica.png" alt="Атлетика" class="partners__pict">
+                </a>
               </li>
             </ul>
           </div>
         </section>
       </main>
     </div>
+
     <footer class="footer">
       <div class="container footer__container">
-        <div class="authorship">
-          <div class="authorship__course">Сделано с любовью и старанием на курсе «HTML + CSS» в <a href="https://loftschool.com/"
-              class="authorship__course-school">LoftSchool</a>.
+        <div class="footer__col">
+          <div class="authorship">
+            <div class="authorship__course">Сделано с любовью и старанием на курсе «HTML + CSS» в <a href="https://loftschool.com/"
+                class="authorship__course-school">LoftSchool</a>.
+            </div>
+            <div class="authorship__author">Автор работы: Исмиляева Екатерина</div>
           </div>
-          <div class="authorship__author">Автор работы: Исмиляева Екатерина</div>
         </div>
-        <div class="logo logo__footer">
-          <a href="#" class="logo__link logo__link_footer ">Афродита</a>
+        <div class="footer__col footer__col_center">
+          <div class="logo logo__footer">
+            <a href="./index.html" class="logo__link">Афродита</a>
+          </div>
         </div>
-        <div class="social-net">
-          <div class="social-net__title">Наши социальные сети</div>
-          <ul class="social-net__list">
-            <li class="social-net__item">
-              <a href="" class="social-net__link social-net__link_vk"></a>
-            </li>
-            <li class="social-net__item">
-              <a href="" class="social-net__link"></a>
-            </li>
-            <li class="social-net__item">
-              <a href="" class="social-net__link"></a>
-            </li>
-            <li class="social-net__item">
-              <a href="" class="social-net__link"></a>
-            </li>
-            <li class="social-net__item">
-              <a href="" class="social-net__link"></a>
-            </li>
-          </ul>
+        <div class="footer__col footer__col_align-right">
+          <div class="social-net">
+            <div class="social-net__title">Наши социальные сети</div>
+            <ul class="social-net__list">
+              <li class="social-net__item">
+                <a href="#" class="social-net__link social-net__link_vk"></a>
+              </li>
+              <li class="social-net__item">
+                <a href="#" class="social-net__link"></a>
+              </li>
+              <li class="social-net__item">
+                <a href="#" class="social-net__link"></a>
+              </li>
+              <li class="social-net__item">
+                <a href="#" class="social-net__link"></a>
+              </li>
+              <li class="social-net__item">
+                <a href="#" class="social-net__link"></a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </footer>

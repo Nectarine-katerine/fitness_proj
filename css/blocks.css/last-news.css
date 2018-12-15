@@ -1,15 +1,13 @@
 
-.last-news h2{
+.last-news__title{
   text-align: center;
-  color: #221f1f;
-  font-size: 49px;
-  font-weight: bold;
-  text-transform: uppercase;
-  padding-top: 51px;
+  padding-top: 56px;
+  padding-bottom: 30px;
  }
 .last-news__container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
+  width: 100%;
  }

@@ -1,10 +1,6 @@
 .contacts {
-  /* position: absolute;
-  top: 13px;
-  right: 21px; */
   font-style: normal;
-  text-align: right;
-}
+ }
 
 .contacts__phone {
   color: #ffffff;
@@ -12,12 +8,4 @@
   font-size: 21px;
   text-decoration: none;
   text-transform: uppercase;
-}
-
-.contacts__worktime {
-  display: block;
-  color: rgba(248, 149, 19, .7);
-  font-family: "Open Sans";
-  font-weight: bold;
-  font-size: 14px;
 }

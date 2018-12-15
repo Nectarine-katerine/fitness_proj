@@ -6,9 +6,9 @@
 }
 .social-net__list {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  width: 140px;
+  width: 100%;
 }
 .social-net__item {
   content: "";
@@ -21,7 +21,6 @@
   background-color: #d0d0d0;
   background-repeat: no-repeat;
   background-position: center center;
-  margin-right: 10px;
 }
 
 .social-net__item:first-child {
