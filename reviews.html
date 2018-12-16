@@ -26,7 +26,7 @@
                   <a href="./index.html" class="menu__link menu__link_main">Главная</a>
                 </li>
                 <li class="menu__item menu__item_active">
-                  <a href="./reviews.html" class="menu__link menu__link_review">Отзывы</a>
+                  <span class="menu__link menu__link_review">Отзывы</span>
                 </li>
                 <li class="menu__item">
                   <a href="./services.html" class="menu__link menu__link_service">Услуги</a>
@@ -60,7 +60,7 @@
                   <a href="./index.html" class="breadcrumbs__link">Главная</a>
                 </li>
                 <li class="breadcrumbs__item breadcrumbs__item_active">
-                  <a href="./reviews.html" class="breadcrumbs__link">Отзывы</a>
+                  <span class="breadcrumbs__link">Отзывы</span>
                 </li>
               </ul>
           </div>
@@ -204,29 +204,23 @@
               <h4 class="review-form__title">Оставить отзыв</h4>
               <form action="" method="" enctype="" autocomplete class="review-form__form">
                 <div class="review-form__top">
-                  <div class="review-form__top-name">
-                    <label for="name">
-                      <div class="review-form__name">Ваше имя</div>
-                    </label>
+                  <div class="review-form__name">
+                    <label for="name">Ваше имя</label>
                     <input type="text" id="name" placeholder="Андрей" class="review-form__name-value">
                   </div>
-                  <div class="review-form__top-vk">
-                    <label for="vk">
-                      <div class="review-form__vk">Ссылка на профиль VK</div>
-                    </label>
+                  <div class="review-form__vk">
+                    <label for="vk">Ссылка на профиль VK</label>
                     <input type="url" id="vk" placeholder="vk.com/example" class="review-form__vk-value">
                   </div>
                 </div>
                 <div class="review-form__middle">
-                  <label for="review">
-                    <div class="review-form__textarea">Текст отзыва</div>
-                  </label>
-                  <textarea name="review-text" id="review" class="review-form__textarea-text" placeholder="Мне понравилось"></textarea>
+                  <label for="review">Текст отзыва</label>
+                  <textarea name="review-text" id="review" class="review-form__textarea-value" placeholder="Мне понравилось"></textarea>
                 </div>
                 <div class="review-form__end">
                   <div class="review-form__radio">
                     <div class="review-form__radio-question">Отображать фото в отзыве?</div>
-                    <label for="yes">
+                    <label>
                       <input type="radio" id="yes" name="photo" class="review-form__radio-answer" checked>
                       <span class="label">Да</span>
                     </label>
