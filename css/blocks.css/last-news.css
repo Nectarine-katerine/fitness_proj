@@ -1,10 +1,5 @@
 
-.last-news__title{
-  text-align: center;
-  padding-top: 56px;
-  padding-bottom: 30px;
- }
-.last-news__container {
+.last-news__content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

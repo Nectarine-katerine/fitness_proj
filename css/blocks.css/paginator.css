@@ -1,8 +1,9 @@
 .paginator {
-  margin-top: 37px;
-  margin-bottom: 60px;
+  margin-top: 39px;
+  margin-bottom: 52px;
+  width: 100%;
 }
-.paginator__container {
+.paginator__content {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,13 +13,13 @@
   color: #656464;
   font-size: 14px;
   margin-right: 20px;
-  width: 26%;
+  width: 19%;
   text-align: right;
  }
 .paginator__controlls {
   display: flex;
   justify-content: flex-start;
-  width: 40%;
+  width: 45%;
 }
 
 .paginatop__prev {

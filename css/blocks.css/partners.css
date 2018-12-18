@@ -1,13 +1,18 @@
 .partners__container {
-  padding-bottom: 33px;
+  width: 100%;
+  padding: 25px;
+  border: 1px solid #000;
+  margin-top: 34px;
 }
 .partners__title {
-  padding-bottom: 71px;
-  margin-left: 90px;
+padding-bottom: 45px;
+  font-size: 18px;
+  text-align: center;
 }
 .partners__list {
   display: flex; 
   flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   width: 100%;
  }
@@ -22,7 +27,7 @@
   filter: grayscale(100%);
 }
 
-.partners__logo:hover {
+.partners__link:hover {
   cursor: pointer;
   filter: grayscale(0);
 }

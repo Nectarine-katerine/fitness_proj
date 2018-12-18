@@ -1,9 +1,9 @@
 .top-news {
-  text-align: left;
+  text-align: center;
   color: #000;
   line-height: 0;
-  margin-top: 34px;
-  width: 15%;
+  margin-top: 68px;
+  width: 62%;
 }
 .top-news h4 {
   font-weight: bold;
@@ -14,7 +14,7 @@
   letter-spacing: 0.2em;
 }
 .top-news__item {
-  margin-top: 23px;
+  margin-top: 29px;
 }
 
 .top-news__name {

@@ -1,46 +1,47 @@
+.social-net {
+  width: 62%;
+  margin-top: 58px;
+}
+.social-net_services {
+  margin-top: 41px;
+}
 .social-net__title {
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 8px;
-  color: #fff;
+  color: #221f1f;
 }
 .social-net__list {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 96%;
 }
 .social-net__item {
-  content: "";
-  font-size: 14px;
-  width: 10px;
-  height: 10px;
-  padding: 9px 10px;
-  border: 1px solid #d0d0d0;
-  border-radius: 100%;
-  background-color: #d0d0d0;
+  width: 20px;
+  height: 20px;
   background-repeat: no-repeat;
-  background-position: center center;
+  /* background-position: center center; */
 }
 
 .social-net__item:first-child {
-  background-image: url(../../icons/vk.png);
+  background: url(../../icons/sprite.png) -99px -10px;
 }
 
 .social-net__item:nth-child(2) {
-  background-image: url(../../icons/fb.png);
+  background: url(../../icons/sprite.png) -10px -10px;
 }
 
 .social-net__item:nth-child(3) {
-  background-image: url(../../icons/google.png);
+  background: url(../../icons/sprite.png) -131px -10px;
 }
 
 .social-net__item:nth-child(4) {
-  background-image: url(../../icons/twitter.png);
+  background: url(../../icons/sprite.png) -36px -10px;
 }
 
 .social-net__item:last-child {
-  background-image: url(../../icons/mail.png);
+  background: url(../../icons/sprite.png) -67px -10px;
 }
 
 .social-net__item:hover {
