@@ -1,18 +1,18 @@
 .waiting {
   background-color: #131415;
+  width: 100%;
+  margin-top: 50px;
 }
-.waiting__container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
+.waiting__content {
   background: url(../../img/bg-waiting.png) center center #131415;
-  padding: 23px 0;
+  padding: 25px 12px;
 }
 .waiting__text {
+  font-size: 18px;
   color: #fff;
-  width: 59%;
-  line-height: 1.9em;
+  width: 100%;
+  line-height: 1.83em;
+  text-align: center;
 }
 .waiting__text_colored {
   text-decoration: none;

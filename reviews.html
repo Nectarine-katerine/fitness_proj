@@ -19,21 +19,6 @@
               <a href="./main.html" class="logo__link">Афродита</a>
             </div>
           </div>
-          <div class="header__col">
-            <nav class="menu">
-              <ul class="menu__list">
-                <li class="menu__item">
-                  <a href="./main.html" class="menu__link menu__link_main">Главная</a>
-                </li>
-                <li class="menu__item menu__item_active">
-                  <span class="menu__link menu__link_review">Отзывы</span>
-                </li>
-                <li class="menu__item">
-                  <a href="./services.html" class="menu__link menu__link_service">Услуги</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
           <div class="header__col header__col_align-right">
             <address class="contacts">
               <a href="tel:+78000039210" class="contacts__phone">8 (800) 00-392-10</a>
@@ -48,215 +33,40 @@
               </div>
             </div>
           </div>
+        </div>
       </header>
-
-      <main class="page">
-
-        <div class="breadcrumbs">
-          <div class="container breadcrumbs__container">
-            <nav class="breadcrumbs">
-              <ul class="breadcrumbs__list">
-                <li class="breadcrumbs__item">
-                  <a href="./main.html" class="breadcrumbs__link">Главная</a>
-                </li>
-                <li class="breadcrumbs__item breadcrumbs__item_active">
-                  <span class="breadcrumbs__link">Отзывы</span>
-                </li>
-              </ul>
-          </div>
-        </div>
-
-        <section class="reviews">
-          <div class="container reviews__container">
-            <h2 class="title reviews__title">Отзывы</h2>
-            <!-- <div class="reviews__content"> -->
-            <ul class="reviews__list">
-              <li class="reviews__item">
-                <div class="reviews__appearance">
-                  <div class="reviews__avatar">
-                    <img src="./img/man-review.png" alt="Фото клиента" class="reviews__avatar-picture">
-                  </div>
-                </div>
-                <div class="reviews__desc">
-                  <time datetime="2016-10-12" class="reviews__desc-date">12.10.2016</time>
-                  <h3 class="reviews__desc-name">Алексей Воронов</h3>
-                  <p class="reviews__desc-text">Пришел, чтобы похудеть немного к лету, но благодаря тренеру
-                    Александру
-                    Ковалеву, получилось накачать нормальные банки. Втянулся, теперь занимаюсь регулярно, 2 раза в
-                    неделю,
-                    доволен и всем советую. Кстати, польза от тренировок намного заметнее, если придерживаться ПП.
-                    Рацион
-                    мне
-                    составили на неделю, но я его повторяю, не надоедает.</p>
-                </div>
+      <div class="container page__container">
+        <aside class="sidebar">
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <div class="menu__icon menu__icon_main"></div>
+                <a href="./main.html" class="menu__link">Главная</a>
+              </li>
+              <li class="menu__item menu__item_active">
+                <div class="menu__icon menu__icon_review"></div>
+                <span class="menu__link">Отзывы</a>
+              </li>
+              <li class="menu__item">
+                <div class="menu__icon menu__icon_services"></div>
+                <a href="./services.html" class="menu__link">Услуги</a>
               </li>
 
-              <li class="reviews__item">
-                <div class="reviews__appearance">
-                  <div class="reviews__avatar">
-                    <img src="./img/second-review.png" alt="Фото клиента" class="reviews__avatar-picture">
-                  </div>
-                </div>
-                <div class="reviews__desc">
-                  <time datetime="2016-02-01" class="reviews__desc-date">01.02.2016</time>
-                  <h3 class="reviews__desc-name">Инна Смольная</h3>
-                  <p class="reviews__desc-text">Подарили на день рождения абонемент в бассейн, пришлось
-                    воспользоваться.
-                    Сама
-                    бы я сюда не пришла, не очень нравится плавать с мужиками, которые пялятся постоянно,
-                    администрации
-                    следует
-                    обратить внимание на этот вопрос! Еще бросилось в глаза хамство обслуживающего персонала.
-                    Уборщица в
-                    раздевалке вела себя, как будто это к ней в гости пришли.</p>
-                </div>
-              </li>
-
-              <li class="reviews__item">
-                <div class="reviews__appearance">
-                  <div class="reviews__avatar reviews__avatar_no-photo">
-                    <!-- <img src="./img/afrodita.png" alt="" class="reviews__avatar-picture"> -->
-                  </div>
-                </div>
-                <div class="reviews__desc">
-                  <time datetime="2015-12-22" class="reviews__desc-date">22.12.2015</time>
-                  <h3 class="reviews__desc-name">Владимир Савельев</h3>
-                  <p class="reviews__desc-text">Норм клуб, железа хватает, но техника устаревшая. За эту цену –
-                    прокатит.
-                    Если
-                    хотите большего, то обращайтесь в специализированные тренажерки с новым железом и европейской
-                    техникой.</p>
-                </div>
-              </li>
-
-              <li class="reviews__item reviews__item_no-border">
-                <div class="reviews__appearance">
-                  <div class="reviews__avatar">
-                    <img src="./img/four-review.png" alt="Фото клиента" class="reviews__avatar-picture">
-                  </div>
-                </div>
-                <div class="reviews__desc">
-                  <time datetime="2015-08-14" class="reviews__desc-date">14.08.2015</time>
-                  <h3 class="reviews__desc-name">Ирина Савина</h3>
-                  <p class="reviews__desc-text">Занимаюсь 4й месяц на петлях ТРХ и очень нравится результат. Даже
-                    знакомые
-                    отметили, что я помолодела, появилась талия, ножки постройнели. Нагрузка сначала была
-                    непривычная, но
-                    втягиваешься быстро, тем более, что отражение в зеркале радует. Цены приятные, а если платить на
-                    полгода
-                    вперед, то вообще выгодно получается, скидка почти 30%. </p>
-                </div>
-              </li>
             </ul>
-            <!-- </div> -->
-          </div>
-        </section>
-
-        <div class="paginator">
-          <div class="container paginator__container">
-            <div class="paginator__display">Страница 1 из 7</div>
-            <div class="paginator__controlls">
-              <a href="#" class="paginatop__prev">&lt;</a>
-              <ul class="paginator__list">
-                <li class="paginator__item">
-                  <a href="" class="paginator__link paginator__link_active paginator__link_active-reviews">1</a>
-                </li>
-                <li class="paginator__item">
-                  <a href="" class="paginator__link">2</a>
-                </li>
-                <li class="paginator__item">
-                  <a href="" class="paginator__link">3</a>
-                </li>
-                <li class="paginator__item">
-                  <a href="" class="paginator__link">4</a>
-                </li>
-                <li class="paginator__item">
-                  <a href="" class="paginator__link">5</a>
-                </li>
-                <li class="paginator__item">
-                  <a href="" class="paginator__link">6</a>
-                </li>
-                <li class="paginator__item">
-                  <a href="" class="paginator__link">7</a>
-                </li>
-              </ul>
-              <a href="" class="paginator__next">&gt;</a>
+          </nav>
+          <section class="waiting">
+            <div class="waiting__content">
+              <div class="waiting__text">
+                Помимо перечисленных услуг, мы предоставляем консультации профессиональных диетологов, тренеров,
+                психологов.
+                Также
+                есть кабинет массажа, зал спа рядом с бассейном и возможность арендовать центр для проведения массовых
+                мероприятий.
+                <a href="#" class="waiting__text_colored">Ждем ваших заявок!</a>
+              </div>
             </div>
-          </div>
-        </div>
-
-        <section class="waiting">
-          <div class="container waiting__container">
-            <div class="waiting__text">
-              Помимо перечисленных услуг, мы предоставляем консультации профессиональных диетологов, тренеров,
-              психологов.
-              Также
-              есть кабинет массажа, зал спа рядом с бассейном и возможность арендовать центр для проведения массовых
-              мероприятий.
-              <a href="#" class="waiting__text_colored">Ждем ваших заявок!</a>
-            </div>
-          </div>
-        </section>
-
-        <section class="review-form">
-          <div class="container review-form__container">
-            <div class="review-form__content">
-              <h4 class="review-form__title">Оставить отзыв</h4>
-              <form action="" method="" enctype="" autocomplete class="review-form__form">
-                <div class="review-form__top">
-                  <div class="review-form__name">
-                    <label for="name">Ваше имя</label>
-                    <input type="text" id="name" placeholder="Андрей" class="review-form__name-value">
-                  </div>
-                  <div class="review-form__vk">
-                    <label for="vk">Ссылка на профиль VK</label>
-                    <input type="url" id="vk" placeholder="vk.com/example" class="review-form__vk-value">
-                  </div>
-                </div>
-                <div class="review-form__middle">
-                  <label for="review">Текст отзыва</label>
-                  <textarea name="review-text" id="review" class="review-form__textarea-value" placeholder="Мне понравилось"></textarea>
-                </div>
-                <div class="review-form__end">
-                  <div class="review-form__radio">
-                    <div class="review-form__radio-question">Отображать фото в отзыве?</div>
-                    <label>
-                      <input type="radio" id="yes" name="photo" class="review-form__radio-answer" checked>
-                      <span class="label">Да</span>
-                    </label>
-                    <label for="no">
-                      <input type="radio" id="no" name="photo" class="review-form__radio-answer">
-                      <span class="label">Нет</span>
-                    </label>
-                  </div>
-                  <div class="review-form__button">
-                    <button type="submit" class="review-form__button-submit">Отправить</button>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </section>
-
-      </main>
-    </div>
-    <footer class="footer">
-      <div class="container footer__container">
-        <div class="footer__col">
-          <div class="authorship">
-            <div class="authorship__course">Сделано с любовью и старанием на курсе «HTML + CSS» в <a href="https://loftschool.com/"
-                class="authorship__course-school">LoftSchool</a>.
-            </div>
-            <div class="authorship__author">Автор работы: Исмиляева Екатерина</div>
-          </div>
-        </div>
-        <div class="footer__col footer__col_center">
-          <div class="logo logo__footer">
-            <a href="./main.html" class="logo__link">Афродита</a>
-          </div>
-        </div>
-        <div class="footer__col footer__col_align-right">
-          <div class="social-net">
+          </section>
+          <div class="social-net social-net_services">
             <div class="social-net__title">Наши социальные сети</div>
             <ul class="social-net__list">
               <li class="social-net__item">
@@ -275,6 +85,200 @@
                 <a href="#" class="social-net__link"></a>
               </li>
             </ul>
+          </div>
+        </aside>
+        <main class="page">
+
+          <div class="breadcrumbs">
+            <div class="container breadcrumbs__container">
+              <nav class="breadcrumbs">
+                <ul class="breadcrumbs__list">
+                  <li class="breadcrumbs__item">
+                    <a href="./main.html" class="breadcrumbs__link">Главная</a>
+                  </li>
+                  <li class="breadcrumbs__item breadcrumbs__item_active">
+                    <span class="breadcrumbs__link">Отзывы</span>
+                  </li>
+                </ul>
+            </div>
+          </div>
+
+          <section class="reviews">
+            <div class="container reviews__container">
+              <h2 class="title reviews__title">Отзывы</h2>
+              <!-- <div class="reviews__content"> -->
+              <ul class="reviews__list">
+                <li class="reviews__item">
+                  <div class="reviews__appearance">
+                    <div class="reviews__avatar">
+                      <img src="./img/man-review.png" alt="Фото клиента" class="reviews__avatar-picture">
+                    </div>
+                  </div>
+                  <div class="reviews__desc">
+                    <time datetime="2016-10-12" class="reviews__desc-date">12.10.2016</time>
+                    <h3 class="reviews__desc-name">Алексей Воронов</h3>
+                    <p class="reviews__desc-text">Пришел, чтобы похудеть немного к лету, но благодаря тренеру
+                      Александру
+                      Ковалеву, получилось накачать нормальные банки. Втянулся, теперь занимаюсь регулярно, 2 раза в
+                      неделю,
+                      доволен и всем советую. Кстати, польза от тренировок намного заметнее, если придерживаться ПП.
+                      Рацион
+                      мне
+                      составили на неделю, но я его повторяю, не надоедает.</p>
+                  </div>
+                </li>
+
+                <li class="reviews__item">
+                  <div class="reviews__appearance">
+                    <div class="reviews__avatar">
+                      <img src="./img/second-review.png" alt="Фото клиента" class="reviews__avatar-picture">
+                    </div>
+                  </div>
+                  <div class="reviews__desc">
+                    <time datetime="2016-02-01" class="reviews__desc-date">01.02.2016</time>
+                    <h3 class="reviews__desc-name">Инна Смольная</h3>
+                    <p class="reviews__desc-text">Подарили на день рождения абонемент в бассейн, пришлось
+                      воспользоваться.
+                      Сама
+                      бы я сюда не пришла, не очень нравится плавать с мужиками, которые пялятся постоянно,
+                      администрации
+                      следует
+                      обратить внимание на этот вопрос! Еще бросилось в глаза хамство обслуживающего персонала.
+                      Уборщица в
+                      раздевалке вела себя, как будто это к ней в гости пришли.</p>
+                  </div>
+                </li>
+
+                <li class="reviews__item">
+                  <div class="reviews__appearance">
+                    <div class="reviews__avatar reviews__avatar_no-photo">
+                      <!-- <img src="./img/afrodita.png" alt="" class="reviews__avatar-picture"> -->
+                    </div>
+                  </div>
+                  <div class="reviews__desc">
+                    <time datetime="2015-12-22" class="reviews__desc-date">22.12.2015</time>
+                    <h3 class="reviews__desc-name">Владимир Савельев</h3>
+                    <p class="reviews__desc-text">Норм клуб, железа хватает, но техника устаревшая. За эту цену –
+                      прокатит.
+                      Если
+                      хотите большего, то обращайтесь в специализированные тренажерки с новым железом и европейской
+                      техникой.</p>
+                  </div>
+                </li>
+
+                <li class="reviews__item reviews__item_no-border">
+                  <div class="reviews__appearance">
+                    <div class="reviews__avatar">
+                      <img src="./img/four-review.png" alt="Фото клиента" class="reviews__avatar-picture">
+                    </div>
+                  </div>
+                  <div class="reviews__desc">
+                    <time datetime="2015-08-14" class="reviews__desc-date">14.08.2015</time>
+                    <h3 class="reviews__desc-name">Ирина Савина</h3>
+                    <p class="reviews__desc-text">Занимаюсь 4й месяц на петлях ТРХ и очень нравится результат. Даже
+                      знакомые
+                      отметили, что я помолодела, появилась талия, ножки постройнели. Нагрузка сначала была
+                      непривычная, но
+                      втягиваешься быстро, тем более, что отражение в зеркале радует. Цены приятные, а если платить на
+                      полгода
+                      вперед, то вообще выгодно получается, скидка почти 30%. </p>
+                  </div>
+                </li>
+              </ul>
+              <!-- </div> -->
+            </div>
+          </section>
+
+          <div class="paginator">
+            <div class="paginator__content">
+              <div class="paginator__display">Страница 1 из 7</div>
+              <div class="paginator__controlls">
+                <a href="#" class="paginatop__prev">&lt;</a>
+                <ul class="paginator__list">
+                  <li class="paginator__item">
+                    <a href="#" class="paginator__link paginator__link_active paginator__link_active-reviews">1</a>
+                  </li>
+                  <li class="paginator__item">
+                    <a href="#" class="paginator__link">2</a>
+                  </li>
+                  <li class="paginator__item">
+                    <a href="#" class="paginator__link">3</a>
+                  </li>
+                  <li class="paginator__item">
+                    <a href="#" class="paginator__link">4</a>
+                  </li>
+                  <li class="paginator__item">
+                    <a href="#" class="paginator__link">5</a>
+                  </li>
+                  <li class="paginator__item">
+                    <a href="#" class="paginator__link">6</a>
+                  </li>
+                  <li class="paginator__item">
+                    <a href="#" class="paginator__link">7</a>
+                  </li>
+                </ul>
+                <a href="#" class="paginator__next">&gt;</a>
+              </div>
+            </div>
+          </div>
+
+          <section class="review-form">
+            <div class="review-form__container">
+              <div class="review-form__content">
+                <h4 class="review-form__title">Оставить отзыв</h4>
+                <form action="" method="" enctype="" autocomplete class="review-form__form">
+                  <div class="review-form__top">
+                    <div class="review-form__name">
+                      <label for="name">Ваше имя</label>
+                      <input type="text" id="name" placeholder="Андрей" class="review-form__name-value">
+                    </div>
+                    <div class="review-form__vk">
+                      <label for="vk">Ссылка на профиль VK</label>
+                      <input type="url" id="vk" placeholder="vk.com/example" class="review-form__vk-value">
+                    </div>
+                  </div>
+                  <div class="review-form__middle">
+                    <label for="review">Текст отзыва</label>
+                    <textarea name="review-text" id="review" class="review-form__textarea-value" placeholder="Мне понравилось"></textarea>
+                  </div>
+                  <div class="review-form__end">
+                    <div class="review-form__radio">
+                      <div class="review-form__radio-question">Отображать фото в отзыве?</div>
+                      <label>
+                        <input type="radio" id="yes" name="photo" class="review-form__radio-answer" checked>
+                        <span class="label">Да</span>
+                      </label>
+                      <label for="no">
+                        <input type="radio" id="no" name="photo" class="review-form__radio-answer">
+                        <span class="label">Нет</span>
+                      </label>
+                    </div>
+                    <div class="review-form__button">
+                      <button type="submit" class="review-form__button-submit">Отправить</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </section>
+
+        </main>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__col">
+          <div class="authorship">
+            <div class="authorship__course">Сделано с любовью и старанием на курсе «HTML + CSS» в <a href="https://loftschool.com/"
+                class="authorship__course-school">LoftSchool</a>.
+            </div>
+            <div class="authorship__author">Автор работы: Исмиляева Екатерина</div>
+          </div>
+        </div>
+
+        <div class="footer__col footer__col_align-right">
+          <div class="logo logo__footer">
+            <a href="./main.html" class="logo__link">Афродита</a>
           </div>
         </div>
       </div>
