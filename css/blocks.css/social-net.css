@@ -18,32 +18,37 @@
   width: 96%;
 }
 .social-net__item {
-  width: 20px;
-  height: 20px;
+  padding: 9px 10px;
+  width: 15px;
+  height: 15px;
   background-repeat: no-repeat;
+  background-color: #d4d4d8;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color .3s;
 }
 
 .social-net__item:first-child {
-  background: url(../../icons/sprite.png) -99px -7px;
+  background: url(../../icons/sprite.png) -95px -4px;
 }
 
 .social-net__item:nth-child(2) {
-  background: url(../../icons/sprite.png) -10px -10px;
+  background: url(../../icons/sprite.png) -3px -7px;
 }
 
 .social-net__item:nth-child(3) {
-  background: url(../../icons/sprite.png) -131px -7px;
+  background: url(../../icons/sprite.png) -129px -5px;
 }
 
 .social-net__item:nth-child(4) {
-  background: url(../../icons/sprite.png) -36px -7px;
+  background: url(../../icons/sprite.png) -31px -5px;
 }
 
 .social-net__item:last-child {
-  background: url(../../icons/sprite.png) -67px -7px;
+  background: url(../../icons/sprite.png) -63px -5px;
 }
 
-/* .social-net__item:hover {
+.social-net__item:hover {
   background-color: #f89513;
-  border: 1px solid #f89513;
-} */
+  transition: background-color .3s;
+}

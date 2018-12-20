@@ -67,9 +67,7 @@
 .form__radio-question {
   margin-bottom: 10px;
 }
-.form__radio-answer_visible {
-  display: inline-block;
-}
+
 .form__radio-answer {
   display: none;
 }
@@ -78,23 +76,40 @@
  vertical-align: middle;
  width: 20px;
  height: 20px;
- border: 1px solid #c9c9c9;
- border-radius: 50%;
- background-image: linear-gradient(to top, #ededed 0%, #ffffff 100%);
-position: relative;
-}
+ position: relative;
+margin-right: 30px;
+padding-left: 30px;
+} 
 
+.form__radio-answer:checked + .form__radio-answer_visible {
+  color: #f89513;
+}
 .form__radio-answer:checked + .form__radio-answer_visible::before {
   content: "";
   display: block;
-  padding: 3px;
+  width: 7px;
+  height: 7px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border: 1px solid #f89513;
   border-radius: 50%;
   background: #f89513;
+}
+.form__radio-answer + .form__radio-answer_visible::after {
+  content: "";
+  display: block;
+ width: 20px;
+height: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 1px solid #c9c9c9;
+}
+.form__radio-answer:checked + .form__radio-answer_visible::after {
+   border: 1px solid #f89513;
 }
 
 .review-form__button {
@@ -112,9 +127,9 @@ color: #fff;
 text-transform: uppercase;
 font-size: 12px;
 font-weight: bold;
-transition: background-color .5s;
+transition: background-color .3s;
 }
 .form__button-submit:hover {
   background-color: #f89513;
-  transition: background-color .5s;
+  transition: background-color .3s;
 }

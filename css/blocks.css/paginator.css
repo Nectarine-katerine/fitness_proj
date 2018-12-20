@@ -37,10 +37,12 @@
   font-weight: bold;
   font-size: 14px;
   text-decoration: none;
+  transition: color .5s;
 }
 
 .paginator__link:hover {
   color: #f89513;
+  transition: color .5s;
 }
 
 .paginator__next {
