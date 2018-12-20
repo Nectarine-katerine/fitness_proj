@@ -21,11 +21,10 @@
   width: 20px;
   height: 20px;
   background-repeat: no-repeat;
-  /* background-position: center center; */
 }
 
 .social-net__item:first-child {
-  background: url(../../icons/sprite.png) -99px -10px;
+  background: url(../../icons/sprite.png) -99px -7px;
 }
 
 .social-net__item:nth-child(2) {
@@ -33,18 +32,18 @@
 }
 
 .social-net__item:nth-child(3) {
-  background: url(../../icons/sprite.png) -131px -10px;
+  background: url(../../icons/sprite.png) -131px -7px;
 }
 
 .social-net__item:nth-child(4) {
-  background: url(../../icons/sprite.png) -36px -10px;
+  background: url(../../icons/sprite.png) -36px -7px;
 }
 
 .social-net__item:last-child {
-  background: url(../../icons/sprite.png) -67px -10px;
+  background: url(../../icons/sprite.png) -67px -7px;
 }
 
-.social-net__item:hover {
+/* .social-net__item:hover {
   background-color: #f89513;
   border: 1px solid #f89513;
-}
+} */
