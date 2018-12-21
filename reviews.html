@@ -37,17 +37,17 @@
       </header>
       <div class="container page__container">
         <aside class="sidebar">
-          <nav class="menu">
-            <ul class="menu__list">
-              <li class="menu__item">
+          <nav class="menu reviews__menu">
+            <ul class="menu__list reviews__menu-list">
+              <li class="menu__item reviews__menu-item">
                 <div class="menu__icon menu__icon_main"></div>
                 <a href="./main.html" class="menu__link">Главная</a>
               </li>
-              <li class="menu__item menu__item_active">
+              <li class="menu__item menu__item_active reviews__menu-item">
                 <div class="menu__icon menu__icon_review"></div>
                 <span class="menu__link">Отзывы</a>
               </li>
-              <li class="menu__item">
+              <li class="menu__item reviews__menu-item">
                 <div class="menu__icon menu__icon_services"></div>
                 <a href="./services.html" class="menu__link">Услуги</a>
               </li>
@@ -57,16 +57,17 @@
           <section class="waiting">
             <div class="waiting__content">
               <div class="waiting__text">
-                Помимо перечисленных услуг, мы предоставляем консультации профессиональных диетологов, тренеров,
-                психологов.
-                Также
-                есть кабинет массажа, зал спа рядом с бассейном и возможность арендовать центр для проведения массовых
-                мероприятий.
-                <a href="#" class="waiting__text_colored">Ждем ваших заявок!</a>
+                <p class="waiting__text_p">
+                  Помимо перечисленных услуг, мы предоставляем консультации профессиональных диетологов, тренеров,
+                  психологов.</p>
+                <p class="waiting__text_p waiting__text_p-second">Также
+                  есть кабинет массажа, зал спа рядом с бассейном и возможность арендовать центр для проведения
+                  массовых
+                  мероприятий.</p>
+                <a href="#" class="waiting__text_link">Ждем ваших заявок!</a>
               </div>
-            </div>
           </section>
-          <div class="social-net social-net_services">
+          <div class="social-net">
             <div class="social-net__title">Наши социальные сети</div>
             <ul class="social-net__list">
               <li class="social-net__item social-net__item_active">
@@ -128,7 +129,7 @@
                   </div>
                 </li>
 
-                <li class="reviews__item">
+                <li class="reviews__item reviews__item_margin-s">
                   <div class="reviews__appearance">
                     <div class="reviews__avatar">
                       <img src="./img/second-review.png" alt="Фото клиента" class="reviews__avatar-picture">
@@ -145,17 +146,17 @@
                       следует
                       обратить внимание на этот вопрос! Еще бросилось в глаза хамство обслуживающего персонала.
                       Уборщица в
-                      раздевалке вела себя, как будто это к ней в гости пришли.</p>
+                      раздевалке вела себя, как будто это к ней в гости</p>
                   </div>
                 </li>
 
-                <li class="reviews__item">
-                  <div class="reviews__appearance">
+                <li class="reviews__item reviews__item_no-photo">
+                  <div class="reviews__appearance reviews__appearance_no-photo">
                     <div class="reviews__avatar reviews__avatar_no-photo">
                       <!-- <img src="./img/afrodita.png" alt="" class="reviews__avatar-picture"> -->
                     </div>
                   </div>
-                  <div class="reviews__desc">
+                  <div class="reviews__desc reviews__desc_no-photo">
                     <time datetime="2015-12-22" class="reviews__desc-date">22.12.2015</time>
                     <h3 class="reviews__desc-name">Владимир Савельев</h3>
                     <p class="reviews__desc-text">Норм клуб, железа хватает, но техника устаревшая. За эту цену –
@@ -166,7 +167,7 @@
                   </div>
                 </li>
 
-                <li class="reviews__item reviews__item_no-border">
+                <li class="reviews__item reviews__item_no-border reviews__item_margin-s">
                   <div class="reviews__appearance">
                     <div class="reviews__avatar">
                       <img src="./img/four-review.png" alt="Фото клиента" class="reviews__avatar-picture">
@@ -189,10 +190,10 @@
             </div>
           </section>
 
-          <div class="paginator">
+          <div class="paginator paginator__reviews">
             <div class="paginator__content">
-              <div class="paginator__display">Страница 1 из 7</div>
-              <div class="paginator__controlls">
+              <div class="paginator__display paginator__reviews-display">Страница 1 из 7</div>
+              <div class="paginator__controlls paginator__reviews-controlls">
                 <a href="#" class="paginatop__prev">&lt;</a>
                 <ul class="paginator__list">
                   <li class="paginator__item">
@@ -223,42 +224,40 @@
           </div>
 
           <section class="form">
-            <div class="form__container">
-              <div class="form__content">
-                <h4 class="form__title">Оставить отзыв</h4>
-                <form action="" method="" enctype="" autocomplete class="form__form">
-                  <div class="form__top">
-                    <div class="form__name">
-                      <label for="name">Ваше имя</label>
-                      <input type="text" id="name" placeholder="Андрей" class="form__name-value">
-                    </div>
-                    <div class="form__vk">
-                      <label for="vk">Ссылка на профиль VK</label>
-                      <input type="url" id="vk" placeholder="vk.com/example" class="form__vk-value">
-                    </div>
+            <div class="container form__container">
+              <h4 class="form__title">Оставить отзыв</h4>
+              <form action="" method="" enctype="" autocomplete class="form__form">
+                <div class="form__top">
+                  <div class="form__name">
+                    <label for="name">Ваше имя</label>
+                    <input type="text" id="name" placeholder="Андрей" class="form__name-value">
                   </div>
-                  <div class="form__middle">
-                    <label for="review">Текст отзыва</label>
-                    <textarea name="review-text" id="review" class="form__textarea-value" placeholder="Мне понравилось"></textarea>
+                  <div class="form__vk">
+                    <label for="vk">Ссылка на профиль VK</label>
+                    <input type="url" id="vk" placeholder="vk.com/example" class="form__vk-value">
                   </div>
-                  <div class="form__end">
-                    <div class="form__radio">
-                      <div class="form__radio-question">Отображать фото в отзыве?</div>
-                      <label>
-                        <input type="radio" name="photo" class="form__radio-answer">
-                        <span class="form__radio-answer_visible">Да</span>
-                      </label>
-                      <label>
-                        <input type="radio" name="photo" class="form__radio-answer">
-                        <span class="form__radio-answer_visible">Нет</span>
-                      </label>
-                    </div>
-                    <div class="form__button">
-                      <button type="submit" class="form__button-submit">Отправить</button>
-                    </div>
+                </div>
+                <div class="form__middle">
+                  <label for="review">Текст отзыва</label>
+                  <textarea name="review-text" id="review" class="form__textarea-value" placeholder="Мне понравилось"></textarea>
+                </div>
+                <div class="form__end">
+                  <div class="form__radio">
+                    <div class="form__radio-question">Отображать фото в отзыве?</div>
+                    <label>
+                      <input type="radio" name="photo" class="form__radio-answer">
+                      <span class="form__radio-answer_visible">Да</span>
+                    </label>
+                    <label>
+                      <input type="radio" name="photo" class="form__radio-answer">
+                      <span class="form__radio-answer_visible">Нет</span>
+                    </label>
                   </div>
-                </form>
-              </div>
+                  <div class="form__button">
+                    <button type="submit" class="form__button-submit">Отправить</button>
+                  </div>
+                </div>
+              </form>
             </div>
           </section>
 

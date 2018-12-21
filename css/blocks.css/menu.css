@@ -1,10 +1,26 @@
 .menu {
   width: 44%;
-  margin-top: 8px;
+  margin-top: 15px;
+}
+.menu__item {
+  margin-top: 29px;
+}
+.main__menu {
+  width: 57%;
+  margin-top: 12px;
+}
+.main__menu-item {
+  margin-top: 19px;
+}
+.reviews__menu {
+  width: 44%;
+  margin-top: 12px;
+}
+.reviews__menu-item {
+  margin-top: 26px;
 }
 
 .menu__item {
-  margin-top: 28px;
   position: relative;
 }
 
@@ -14,8 +30,9 @@
   font-weight: bold;
   font-size: 12px;
   text-transform: uppercase;
-  padding-left: 36px;
+  padding-left: 30px;
   transition: color .3s;
+  letter-spacing: 0.1em;
 }
 
 .menu__item:hover .menu__link {
@@ -44,8 +61,8 @@
   width: 20px;
   height: 18px;
   position: absolute;
-  top: 5px;
-  left: 23px;
+  top: 7px;
+  left: 18px;
   display: block;
   opacity: 1;
   transition: opacity .3s;
@@ -56,8 +73,8 @@
   width: 20px;
   height: 18px;
   position: absolute;
-  top: 3px;
-  left: 23px;
+  top: 6px;
+  left: 18px;
   display: block;
   background: url(../../icons/sprite.png) -244px -10px;
   opacity: 0;
@@ -78,11 +95,12 @@
 
 .menu__icon_services::before {
   background: url(../../icons/sprite.png) -324px -10px;
+  top: 5px;
 }
 
 .menu__icon_review::after {
   background: url(../../icons/sprite.png) -284px -10px;
-  top: 3px;
+  top: 6px;
 }
 
 .menu__icon_review::before {

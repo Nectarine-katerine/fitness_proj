@@ -1,3 +1,7 @@
+.partners {
+  width: 98%;
+  align-self: flex-start;
+}
 .partners__container {
   width: 100%;
   padding: 25px;
@@ -19,6 +23,10 @@ padding-bottom: 45px;
 .partners__item {
   flex: 1 0 266px;
   margin-bottom: 50px;
+  padding-top: 7px;
+}
+.partners__item_no-padding {
+  padding: 0;
 }
 .partners__link {
   display: flex;

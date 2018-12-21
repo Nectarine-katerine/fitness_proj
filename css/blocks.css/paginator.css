@@ -1,7 +1,12 @@
 .paginator {
-  margin-top: 39px;
+  margin-top: 48px;
   margin-bottom: 52px;
   width: 100%;
+}
+.paginator__reviews {
+  margin-top: 21px;
+  margin-bottom: 62px;
+  width: 85%;
 }
 .paginator__content {
   display: flex;
@@ -21,6 +26,13 @@
   justify-content: flex-start;
   width: 45%;
 }
+.paginator__reviews-display {
+  margin-right: 16px;
+  width: 17%;
+}
+.paginator__reviews-controlls {
+  width: 53%;
+}
 
 .paginatop__prev {
   text-decoration: none;
@@ -37,12 +49,12 @@
   font-weight: bold;
   font-size: 14px;
   text-decoration: none;
-  transition: color .5s;
+  transition: color .3s;
 }
 
 .paginator__link:hover {
   color: #f89513;
-  transition: color .5s;
+  transition: color .3s;
 }
 
 .paginator__next {

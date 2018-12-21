@@ -1,21 +1,32 @@
 .waiting {
   background-color: #131415;
-  width: 100%;
-  margin-top: 50px;
+  width: 98%;
+  margin-top: 56px;
+  align-self: flex-start;
 }
 .waiting__content {
   background: url(../../img/bg-waiting.png) center center #131415;
-  padding: 25px 12px;
+  padding: 20px 12px;
+  padding-bottom: 29px;
+  text-align: center;
+  
 }
-.waiting__text {
+.waiting__text_p {
   font-size: 18px;
   color: #fff;
   width: 100%;
-  line-height: 1.83em;
-  text-align: center;
+  line-height: 1.7em;
+  margin: 0;
+  padding: 0;
 }
-.waiting__text_colored {
+.waiting__text_p-second {
+  width: 90%;
+}
+.waiting__text_link {
+  display: block;
   text-decoration: none;
   color: #f89513;
   font-weight: bold;
+  margin-top: 5px;
+  letter-spacing: 0.13em;
 }

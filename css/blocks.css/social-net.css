@@ -1,21 +1,18 @@
 .social-net {
-  width: 62%;
-  margin-top: 58px;
+  margin-top: 25px;
 }
-.social-net_services {
-  margin-top: 41px;
-}
+
 .social-net__title {
   font-size: 14px;
   font-weight: bold;
-  margin-bottom: 8px;
+  margin-bottom: 7px;
   color: #221f1f;
 }
 .social-net__list {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  width: 96%;
+  width: 100%;
 }
 .social-net__item {
   padding: 9px 10px;
