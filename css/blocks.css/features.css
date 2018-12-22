@@ -7,7 +7,6 @@
 }
 
 .features__title {
-  /* padding-top: 20px; */
   color: #221f1f;
   font-size: 18px;
   text-align: center;
@@ -23,7 +22,6 @@
 }
 
 .features__item {
-  /* width: 19%; */
   margin: auto 35px;
 }
 

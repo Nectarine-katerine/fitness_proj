@@ -1,27 +1,11 @@
 .menu {
-  width: 44%;
+  width: 50%;
   margin-top: 15px;
-}
-.menu__item {
-  margin-top: 29px;
-}
-.main__menu {
-  width: 57%;
-  margin-top: 12px;
-}
-.main__menu-item {
-  margin-top: 19px;
-}
-.reviews__menu {
-  width: 44%;
-  margin-top: 12px;
-}
-.reviews__menu-item {
-  margin-top: 26px;
 }
 
 .menu__item {
   position: relative;
+  margin-top: 25px;
 }
 
 .menu__link {
@@ -87,6 +71,7 @@
 
 .menu__icon_main::before {
   background: url(../../icons/sprite.png) -244px -10px;
+  top: 5px;
 }
 
 .menu__icon_services::after {

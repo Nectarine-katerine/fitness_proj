@@ -4,13 +4,14 @@
   margin-top: 56px;
   align-self: flex-start;
 }
+
 .waiting__content {
   background: url(../../img/bg-waiting.png) center center #131415;
   padding: 20px 12px;
   padding-bottom: 29px;
   text-align: center;
-  
 }
+
 .waiting__text_p {
   font-size: 18px;
   color: #fff;
@@ -19,9 +20,11 @@
   margin: 0;
   padding: 0;
 }
+
 .waiting__text_p-second {
   width: 90%;
 }
+
 .waiting__text_link {
   display: block;
   text-decoration: none;

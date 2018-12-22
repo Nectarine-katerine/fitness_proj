@@ -1,24 +1,15 @@
 .top-news {
   text-align: center;
   color: #000;
-  line-height: 0;
-  margin-top: 71px;
+  margin-top: 41px;
   width: 100%;
 }
 .top-news__title {
   font-weight: bold;
   text-transform: uppercase;
-  padding-bottom: 20px;
+  margin-bottom: 4px;
   font-size: 12px;
   letter-spacing: 0.2em;
-}
-
-.top-news__month {
-  display: inline-block;
-  margin-bottom: 29px;
-}
-.top-news__item {
-  margin-bottom: 21px;
 }
 .top-news__name {
   color: #221f1f;
@@ -27,6 +18,8 @@
 }
 
 .top-news__month {
+  display: block;
+  margin-bottom: 20px;
   color: #221f1f;
   font-size: 12px;
   text-transform: uppercase;
@@ -34,6 +27,14 @@
   text-decoration: none;
   letter-spacing: 0.2em;
 }
+
+.top-news__item {
+  margin-bottom: 17px;
+}
+.top-news__item:last-child {
+  margin-bottom: 0;
+}
+
 .top-news__link {
   width: 100%;
 }

@@ -1,9 +1,10 @@
 .breadcrumbs__container {
-  padding-top: 37px;
+  padding-top: 39px;
   padding-bottom: 9px;
-  padding-left: 22px;
+  padding-left: 19px;
   width: 100%;
 }
+
 .breadcrumbs__list {
   display: flex;
 }
