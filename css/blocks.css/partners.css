@@ -6,7 +6,7 @@
   width: 100%;
   padding: 25px;
   border: 1px solid #000;
-  margin-top: 34px;
+  margin-top: 45px;
 }
 .partners__title {
 padding-bottom: 45px;
@@ -33,11 +33,13 @@ padding-bottom: 45px;
   align-items: center;
   justify-content: center;
   filter: grayscale(100%);
+  transition: filter .3s;
 }
 
 .partners__link:hover {
   cursor: pointer;
   filter: grayscale(0);
+  transition: filter .3s;
 }
 .partners__pict {
   max-width: 100%;
